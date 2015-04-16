@@ -1,0 +1,56 @@
+* {
+	box-sizing: border-box;	
+
+}
+body {
+	max-width: 800px;
+	margin: 0 auto;
+}
+.soidid {
+	margin: 0 auto;
+	text-align: center;
+	display: inline-block;
+	font-size: 20px;
+	font-weight: 700;
+	padding: 10px;
+    background: rgba(255,255,255,0.8);
+   
+}
+.Section {
+	margin: 80px 0;
+	border: 10px solid rgb(200,200,200);
+	box-shadow: 15px 15px 0 0 rgba(0,0,0,0.12);
+	position: relative;
+	z-index: 10;
+}
+.Section:hover {
+	box-shadow: 15px 15px 0 0 rgba(100,100,100,0.18);
+}
+.Title {
+	font-size: 24px;
+	font-weight: 800;
+	margin: 10px;
+}
+.Info {
+	background: rgb(220,220,220);
+	padding: 10px;
+}
+.Fig {
+	width: 100%;
+}
+.Link, .Link:visited {
+	background: black;
+	color: white;
+	position: absolute;
+	top: -42px;
+	right: 0;
+	display: inline-block;
+	padding: 8px 10px;
+	z-index: 0;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+
+}
+.Link:hover {
+	top: -46px;
+}
